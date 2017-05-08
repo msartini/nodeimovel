@@ -1,0 +1,13 @@
+body {
+    background: #fff;
+    color: #bbb;
+}
+
+.title {
+    color: #ccc;
+    font-size: 2em;
+}
+
+ul {
+    list-style: none;
+}

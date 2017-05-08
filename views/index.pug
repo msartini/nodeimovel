@@ -1,0 +1,12 @@
+doctype html
+html
+    head
+        title #{title}
+        script(src='/public/js/main.js')
+        link(href='/public/css/main.css', rel='stylesheet' type='text/css')
+    body
+        <h1 class=title>#{message}</h1>
+        ul
+            each val in people
+                li= val
+        a(href='http://google.com') Google
